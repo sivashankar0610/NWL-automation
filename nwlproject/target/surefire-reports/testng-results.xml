@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101214" started-at="2024-09-03T12:28:08 BST" finished-at="2024-09-03T12:29:49 BST">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nwl.runners.TestRunner@2f943d71]" name="scenario" class="com.nwl.runners.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="101214" started-at="2024-09-03T12:28:08 BST" finished-at="2024-09-03T12:29:49 BST">
+      <class name="com.nwl.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.nwl.runners.TestRunner@2f943d71]" name="setUpClass" is-config="true" duration-ms="920" started-at="2024-09-03T12:28:08 BST" finished-at="2024-09-03T12:28:09 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.nwl.runners.TestRunner@2f943d71]" name="scenario" duration-ms="100116" started-at="2024-09-03T12:28:09 BST" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2024-09-03T12:29:49 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify whether user is able to register a new online account for a measured property via ribbon (Address is not listed Account Number unknown / Payment Method Known ebilling option = No Marketing Preferences = Yes)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Customer Account functionality - Inorder to test Customer Account scenarios in MyAccount]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.nwl.runners.TestRunner@2f943d71]" name="tearDownClass" is-config="true" duration-ms="135" started-at="2024-09-03T12:29:49 BST" finished-at="2024-09-03T12:29:49 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nwl.runners.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

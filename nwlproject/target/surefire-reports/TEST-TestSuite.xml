@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="101.906" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Shiva\NWG.Website.AutomationTestScripts\nwlproject\target\test-classes;C:\Shiva\NWG.Website.AutomationTestScripts\nwlproject\target\classes;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\tirus\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\tirus\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\tirus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\tirus\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\tirus\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\tirus\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\tirus\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\tirus\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\tirus\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\tirus\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\tirus\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\tirus\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\tirus\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\tirus\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\tirus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\tirus\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\tirus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\tirus\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\tirus\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\tirus\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\tirus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\tirus\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\tirus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\tirus\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\tirus\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\tirus\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\tirus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\tirus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\tirus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\tirus\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\tirus\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-testng\7.1.0\cucumber-testng-7.1.0.jar;C:\Users\tirus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-java\7.1.0\cucumber-java-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-core\7.1.0\cucumber-core-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.1.0\cucumber-gherkin-messages-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\tirus\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\tirus\.m2\repository\io\cucumber\datatable\7.1.0\datatable-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-plugin\7.1.0\cucumber-plugin-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\docstring\7.1.0\docstring-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\create-meta\6.0.4\create-meta-6.0.4.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-gherkin\7.1.0\cucumber-gherkin-7.1.0.jar;C:\Users\tirus\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\tirus\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\tirus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\tirus\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\tirus\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tirus\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\tirus\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\tirus\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\tirus\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\tirus\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\tirus\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\tirus\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\tirus\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows Server 2019"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\tirus\AppData\Local\Temp\2\surefire5708917797345114597\surefirebooter1969649086341628552.jar C:\Users\tirus\AppData\Local\Temp\2\surefire5708917797345114597 2024-09-03T12-28-06_062-jvmRun1 surefire2486610571844627960tmp surefire_08014051043921068140tmp"/>
+    <property name="surefire.test.class.path" value="C:\Shiva\NWG.Website.AutomationTestScripts\nwlproject\target\test-classes;C:\Shiva\NWG.Website.AutomationTestScripts\nwlproject\target\classes;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\tirus\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\tirus\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\tirus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\tirus\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\tirus\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\tirus\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\tirus\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\tirus\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\tirus\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\tirus\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\tirus\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\tirus\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\tirus\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\tirus\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\tirus\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\tirus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\tirus\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\tirus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\tirus\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\tirus\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\tirus\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\tirus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\tirus\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\tirus\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\tirus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\tirus\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\tirus\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\tirus\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\tirus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\tirus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\tirus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\tirus\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\tirus\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-testng\7.1.0\cucumber-testng-7.1.0.jar;C:\Users\tirus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-java\7.1.0\cucumber-java-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-core\7.1.0\cucumber-core-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.1.0\cucumber-gherkin-messages-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\tirus\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\tirus\.m2\repository\io\cucumber\datatable\7.1.0\datatable-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-plugin\7.1.0\cucumber-plugin-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\docstring\7.1.0\docstring-7.1.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\tirus\.m2\repository\io\cucumber\create-meta\6.0.4\create-meta-6.0.4.jar;C:\Users\tirus\.m2\repository\io\cucumber\cucumber-gherkin\7.1.0\cucumber-gherkin-7.1.0.jar;C:\Users\tirus\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\tirus\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\tirus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\tirus\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\tirus\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\tirus\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tirus\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\tirus\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\tirus\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\tirus\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\tirus\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\tirus\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\tirus\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\tirus\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tirus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="basedir" value="C:\Shiva\NWG.Website.AutomationTestScripts\nwlproject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\tirus\AppData\Local\Temp\2\surefire5708917797345114597\surefirebooter1969649086341628552.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="webdriver.edge.driver" value="C:\Users\tirus\.cache\selenium\msedgedriver\win64\128.0.2739.54\msedgedriver.exe"/>
+    <property name="user.name" value="tirus"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\tirus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tirus\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="C:\Shiva\NWG.Website.AutomationTestScripts\nwlproject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_281/bin/server;C:/Program Files/Java/jre1.8.0_281/bin;C:/Program Files/Java/jre1.8.0_281/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mohaf\Applications\apache-maven-3.8.3\bin;C:\Users\mohaf\Applications\jdk1.8.0_73\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\Users\allak\AppData\Local\Android\Sdk\tools\bin;C:\Users\allak\AppData\Local\Android\Sdk\tools;C:\Users\allak\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\tirus\AppData\Local\Microsoft\WindowsApps;C:\Users\tirus\AppData\Local\GitHubDesktop\bin;C:\eclipse 2022\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="scenario[&quot;To verify whether user is able to register a new online account for a measured property via ribbon (Address is not listed Account Number unknown / Payment Method Known ebilling option = No Marketing Preferences = Yes)&quot;, &quot;Optional[Customer Account functionality - Inorder to test Customer Account scenarios in MyAccount]&quot;](1)" classname="com.nwl.runners.TestRunner" time="100.138">
+    <system-out><![CDATA[
+@CustomerAccount @Registration @TC5 @9131 @Regression
+Scenario Outline: To verify whether user is able to register a new online account for a measured property via ribbon (Address is not listed Account Number unknown / Payment Method Known ebilling option = No Marketing Preferences = Yes) # src/test/resources/features/CustomerAccount.feature:86
+  Given User open the browser "edge" and launch the url "https://td-prep.nwl.co.uk/"                                                                                                                                                        # com.nwl.steps.BDD_Smart_MeterAndUsageEfficiencyStatus.launchURL(java.lang.String,java.lang.String)
+
+    Embedding Screenshot_Success [image/png 1271831 bytes]
+
+  When User clicks on Login or Create an account from Ribbon Account and should redirected to login tab                                                                                                                                     # com.nwl.steps.BDD_Smart_MeterAndUsageEfficiencyStatus.userClicksOnLoginOrCreateAnAccountFromRibbonAccount()
+
+    Embedding Screenshot_Success [image/png 39203 bytes]
+
+  And User clicks Create an account tab and should redirected to Create an account tab                                                                                                                                                      # com.nwl.steps.BDD_NewCustomerMoveIntoUnmeasuredProperty.userClicksOnCreateAnAccountTabAndShouldRedirectedToCreateAnAccountTab()
+
+    Embedding Screenshot_Success [image/png 33545 bytes]
+
+123 Addington Drive, Wallsend, NE28 9UX
+  Then System gets the required information from CC&B for the account "0020400200" using "allak" and "Monda16!"                                                                                                                             # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.System_gets_required_info_from_CCB(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Screenshot_Success [image/png 148790 bytes]
+
+Email address is: nwl20240903122846@yopmail.com
+  When User enters the account details on the Create an account screen "Test@1234"                                                                                                                                                          # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.User_enters_the_personal_details(java.lang.String)
+
+    Embedding Screenshot_Success [image/png 32317 bytes]
+
+  Then User clicks on  Create account button and System should display the success screen popup to verify the user account                                                                                                                  # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.System_should_display_the_success_screen_popup()
+
+    Embedding Screenshot_Success [image/png 31620 bytes]
+
+  When User opens "https://yopmail.com/en/" and enters the email address                                                                                                                                                                    # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.User_opens_Yopmail(java.lang.String)
+
+    Embedding Screenshot_Success [image/png 155659 bytes]
+
+  And User clicks on the activation mail to activate the account                                                                                                                                                                            # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.User_clicks_on_the_activation_mail()
+
+    Embedding Screenshot_Success [image/png 146436 bytes]
+
+  Then User should be redirected to NWL Website to enter personal details                                                                                                                                                                   # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.User_should_be_redirected_to_NWL()
+
+    Embedding Screenshot_Success [image/png 64565 bytes]
+
+  And User enters his personal details and click on Next button                                                                                                                                                                             # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.User_enters_his_personal_details()
+
+    Embedding Screenshot_Success [image/png 34908 bytes]
+
+  And User updates his market preferences and click on Next button                                                                                                                                                                          # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.User_updates_his_market_preferences()
+
+    Embedding Screenshot_Success [image/png 66007 bytes]
+
+  When User is redirected to Dashboard then account should be activated                                                                                                                                                                     # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.User_is_redirected_to_Dashboard()
+
+    Embedding Screenshot_Success [image/png 77741 bytes]
+
+  Then Verify the email in CC&B                                                                                                                                                                                                             # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.Verify_details_in_CCB()
+
+    Embedding Screenshot_Success [image/png 77830 bytes]
+
+  And Verify the Web Self Service Registration in CC&B                                                                                                                                                                                      # com.nwl.steps.BDD_Registration_UnmeasuredAccountViaHomepage.Verify_the_Web_Self_Service_Registration_in_CCB()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting Microsoft Edge WebDriver 128.0.2739.54 (baeaa1ac164abcde4468d7f287dac4e7614f4f94) on port 17927
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+msedgedriver was started successfully on port 17927.
+Sep 03, 2024 12:28:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AUTMWADEV01', ip: '10.154.128.14', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.nwl.steps.ServiceHooks.endTest(ServiceHooks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at com.nwl.runners.TestRunner.scenario(TestRunner.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>
